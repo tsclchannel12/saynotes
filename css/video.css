@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .videos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  .video {
+    width: 33%;
+    height: 0%;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    overflow: visible;
+  }
+  .video img {
+    width: 50%;
+    height: 20px;
+    object-fit: cover;
+  }
+  .video h3 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  .video p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+
+
+
+
