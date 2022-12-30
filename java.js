@@ -3,7 +3,7 @@ function tsFunction(){
     const password = document.getElementById("password").value;
 
     if(username === "say" && password === "yashika"){
-        window.open("main.html")
+        window.open("index.html")
     } else {
         alert("The system could not log you in!") /*displays error message*/
     }
